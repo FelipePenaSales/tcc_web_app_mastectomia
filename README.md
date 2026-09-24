@@ -6,7 +6,9 @@ O trabalho acadêmico permanece em documento próprio. O nome definitivo do prod
 
 ## Estado do projeto
 
-**Etapa atual: levantamento e consolidação de requisitos.** Esta atualização está autorizada apenas para o README; não inicia desenvolvimento, prototipação, arquitetura detalhada ou provisionamento.
+**Etapa atual: primeiro protótipo funcional da fase 2, autorizado por Felipe.** O restante do MVP continua em levantamento de requisitos.
+
+O protótipo está em [`prototipos/fase-2`](prototipos/fase-2/README.md), feito em React e TypeScript. Permite testar o player com o vídeo fornecido, os 11 exercícios e os checks de uma sessão. Não inclui questionários, outras fases, persistência ou hospedagem no Lightsail.
 
 As decisões mais recentes abaixo substituem propostas anteriores conflitantes. 🟢 Definido · 🟡 Pendente · 🔴 Fora do MVP.
 
@@ -156,7 +158,7 @@ Repositório: [FelipePenaSales/tcc_web_app_mastectomia](https://github.com/Felip
 | GitHub | Código, documentação e histórico de versões | 🟢 Definido |
 | Hospedagem | Lightsail com domínio próprio é o caminho pretendido | 🟡 Pendente |
 | Servidor e custos | Confirmar instância, orçamento e configuração | 🟡 Pendente |
-| Stack | Linguagem e framework ainda não escolhidos | 🟡 Pendente |
+| Stack do protótipo | React, TypeScript, CSS e Vite | 🟢 Definido |
 | Domínio, DNS e HTTPS | Definir configuração | 🟡 Pendente |
 | Nginx e Docker | Sugestões anteriores, sem arquitetura aprovada | 🟡 Pendente |
 | Publicação automática | Ainda não definida | 🟡 Pendente |
@@ -171,4 +173,4 @@ Nenhuma infraestrutura foi criada ou contratada nesta atualização.
 2. Consolidar sessões diárias, instrumentos e mensagens de avaliação.
 3. Definir armazenamento local, visualização dos registros e requisitos técnicos restantes.
 4. Consolidar casos de uso e alinhar o texto acadêmico.
-5. Aguardar orientação para iniciar o desenvolvimento; a autorização desta atualização limita-se ao README.
+5. Validar o protótipo da fase 2 com a equipe antes de ampliar a implementação.
